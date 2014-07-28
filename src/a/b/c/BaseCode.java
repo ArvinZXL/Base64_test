@@ -11,7 +11,7 @@ public class BaseCode {
 		try {
 			String result = new String(bs.encode("20140324171017839603".getBytes("ASCII")),
 					"ASCII");
-			System.out.println(result);
+			//System.out.println(result);
 			
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
